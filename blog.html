@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+            padding: 0;
+            background: #F4F4F4;
+        }
+        imgs {
+            position: relative;
+        }
+        .a input {
+            position: absolute;
+            width: 300px;
+            height: 30px;
+            border-radius: 20px;
+            background: cornsilk;
+            top: 280px;
+            left: 590px;
+        }
+        .text {
+            position: absolute;
+            top: 60px;
+            left: 580px;
+            font-size: 80px;
+            font-family:Arial, Helvetica, sans-serif;
+            font-weight: 200;
+        }
+        .main {
+            position: absolute;
+            width: 800px;
+            height: 930px;
+            border-radius: 20px;
+            background: white;
+            left: 380px;
+            top: 530px;
+            margin-top: 10px;
+        }
+        .main-list {
+            margin-top: 50px;
+        }
+        li {
+            list-style: none;
+            margin-top: 22px;
+            transition: transform 0.5s;
+        }
+        li:hover{
+            background: whitesmoke;
+            cursor: pointer;
+            transform:translate(0,-10px)
+        }
+        .foot {
+            width: 100px;
+            height: 100px;
+            margin-top: 100px;
+        }
+        a {
+            text-decoration: none;
+            color: #984F91;
+            font-weight: 300;
+            border: 2px solid pink;
+            border-radius: 10px;
+        }
+        span {
+            color: cadetblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="a">
+        <img src="./tgp.png" alt="" class="imgs">
+        <div class="text">
+            <span>资源汇总</span>
+        </div>
+        <input type="text" value="索引">
+        
+        <div class="main">
+            <br>
+            <h2>&nbsp;&nbsp;&nbsp;Portal-2021 </h2>
+            <br>
+            <hr>
+            <div class="main-list">
+                <ul>
+                    <li><a href="https://developer.mozilla.org/zh-CN/docs/Web" target="_Blank">MDN-</a><span>提供 Web 技术文档，学习 Web 开发的最佳实践</span></li>
+                    <li><a href="https://zh.javascript.info/" target="_Blank">现代 JavaScript 教程-</a><span>以最新的 JavaScript 标准为基准</span></li>
+                    <li><a href="https://react.docschina.org/" target="_Blank">React-</a><span>用于构建用户界面的 JavaScript 库</span></li>
+                    <li><a href="https://ant.design/index-cn" target="_Blank">Ant Design-</a><span>企业级的 UI 设计语言和 React 实现</span></li>
+                    <li><a href="https://cn.vuejs.org/v2/guide/" target="_Blank">Vue2-</a><span>渐进式 JavaScript 框架</span></li>
+                    <li><a href="https://v3.cn.vuejs.org/" target="_Blank">Vue3-</a><span>渐进式 JavaScript 框架</span> </li>
+                    <li><a href="https://vue.docschina.org/v2/style-guide/" target="_Blank">Vue风格指南-</a><span>Vue 代码的风格指南</span></li>
+                    <li><a href="https://vue-test-utils.vuejs.org/zh/" target="_Blank">Vue Test Utils-</a><span>是 Vue.js 官方的单元测试实用工具库</span></li>
+                    <li><a href="https://vuejs.github.io/ui/#/demo/buttongroup" target="_Blank">Vue UI Framework-</a><span>Vue 官方 UI 组件</span></li>
+                    <li><a href="https://vuepress.vuejs.org/zh/" target="_Blank">VuePress-</a><span>Vue 驱动的静态网站生成器</span></li>
+                    <li><a href="https://v-charts.js.org/#/bar" target="_Blank">V-charts-</a><span>基于 Vue 和 ECharts 封装的图表组件</span></li>
+                    <li><a href="https://youzan.github.io/vant/#/zh-CN/" target="_Blank">Vant -</a><span>轻量、可靠的移动端 Vue 组件库</span></li>
+                    <li><a href="https://webpack.docschina.org/" target="_Blank">webpack-</a><span>用于现代 JavaScript 应用程序的静态模块打包工具</span></li>
+                    <li><a href="https://babel.docschina.org/" target="_Blank">Babel </a><span>一个编译工具，让你可以项目中直接使用下一代 JavaScript</span></li>
+                    <li><a href="https://cn.vitejs.dev/" target="_Blank">Vite </a><span>下一代前端开发与构建工具</span></li>
+                    <li><a href="http://liubin.org/promises-book/" target="_Blank">Promise迷你书 </a><span>基于 Promise 进行异步编程的基本使用方法，应用及反模式等内容的文档</span></li>
+                    <li><a href="https://refactoringguru.cn/design-patterns" target="_Blank">设计模式 </a><span>每个模式就像一张蓝图， 你可以通过对其
+                        进行定制来解决代码中的特定设计问题</span></li>
+                    <!-- <li><a href="" target="_Blank"></a><span></span></li>
+                    <li><a href="" target="_Blank"></a><span></span></li>
+                    <li><a href="" target="_Blank"></a><span></span></li>
+                    <li><a href="" target="_Blank"></a><span></span></li> -->
+                </ul>
+            </div>
+            
+        </div>
+        <div class="foot">
+            <span>占位</span>
+        </div>
+    </div>
+    
+</body>
+</html>
